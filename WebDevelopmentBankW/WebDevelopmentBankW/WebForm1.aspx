@@ -50,8 +50,9 @@
 
     </p>
 
-    <style>
+
     
+    <style>
         .column {
           float: left;
           width: 50%;
@@ -61,38 +62,38 @@
     </style>
         
 
-    <div id="Invisitems" runat="server">
-
+    
+    <div id="invisitems" runat="server" visible="false"> 
     <div class="row">
       <div class="column" style="background-color:#FFFF;">
         
         <p>
-        <asp:Label ID="lblNoCredTi" runat="server" Text="Numero de credito:" Visible="False"></asp:Label>
+        <asp:Label ID="lblNoCredTi" runat="server" Text="Numero de credito:"></asp:Label>
         &nbsp;&nbsp;
         <asp:Label ID="lblNoCre" runat="server"></asp:Label>
         <p>
 
         <p>
-        <asp:Label ID="lblfechmodti" runat="server" Text="Fecha de modificacion:" Visible="False"></asp:Label>
+        <asp:Label ID="lblfechmodti" runat="server" Text="Fecha de modificacion:"></asp:Label>
         &nbsp;&nbsp;
         <asp:Label ID="lblfechmod" runat="server"></asp:Label>
         </p>
 
 
         <p>
-        <asp:Label ID="lblMarcaAntti" runat="server" Text="Marca anterior:" Visible="False"></asp:Label>
+        <asp:Label ID="lblMarcaAntti" runat="server" Text="Marca anterior:"></asp:Label>
         &nbsp;&nbsp;
         <asp:Label ID="lblMarcaAnt" runat="server"></asp:Label>
         </p>
 
         <p>
-        <asp:Label ID="lblSaldoCTi" runat="server" Text="Saldo capital e intereses:" Visible="False"></asp:Label>
+        <asp:Label ID="lblSaldoCTi" runat="server" Text="Saldo capital e intereses:"></asp:Label>
         &nbsp;&nbsp;
         <asp:Label ID="lblSaldoC" runat="server"></asp:Label>
         </p>
 
         <p>
-        <asp:Label ID="lblDiasMoraTi" runat="server" Text="Dias de mora:" Visible="False"></asp:Label>
+        <asp:Label ID="lblDiasMoraTi" runat="server" Text="Dias de mora:"></asp:Label>
         &nbsp;&nbsp;
         <asp:Label ID="lblDiasMora" runat="server"></asp:Label>
         </p>
@@ -101,51 +102,53 @@
       <div class="column" style="background-color:#FFFF">
         
         <p>
-        <asp:Label ID="lblTasIntTi" runat="server" Text="Tasa de interes:" Visible="False"></asp:Label>
+        <asp:Label ID="lblTasIntTi" runat="server" Text="Tasa de interes:"></asp:Label>
         &nbsp;
         <asp:Label ID="lbltasInt" runat="server"></asp:Label>
         </p>
 
         <p>
-        <asp:Label ID="lblPlazomesti" runat="server" Text="Plazo meses:" Visible="False"></asp:Label>
+        <asp:Label ID="lblPlazomesti" runat="server" Text="Plazo meses:"></asp:Label>
         &nbsp;
         <asp:Label ID="lblPlazomes" runat="server"></asp:Label>
         </p>
 
         <p>      
-        <asp:Label ID="lblcuotAntTi" runat="server" Text="Cuota condicion:" Visible="False"></asp:Label>
+        <asp:Label ID="lblcuotAntTi" runat="server" Text="Cuota condicion:"></asp:Label>
         &nbsp;
             <asp:Label ID="lblcuotAnt" runat="server"></asp:Label>
         </p>
 
         <p>
-        <asp:Label ID="lblFechaProti" runat="server" Text="Fecha proyectada:" Visible="False"></asp:Label>
+        <asp:Label ID="lblFechaProti" runat="server" Text="Fecha proyectada:"></asp:Label>
         &nbsp;
         <asp:Label ID="lblFechaPro" runat="server"></asp:Label>
         </p>
 
         <p>
-        <asp:Label ID="lblNoModTi" runat="server" Text="Numero de modificaciones:" Visible="False"></asp:Label>
+        <asp:Label ID="lblNoModTi" runat="server" Text="Numero de modificaciones:"></asp:Label>
         &nbsp;
         <asp:Label ID="lblNoMod" runat="server"></asp:Label>
         </p>
 
       </div>
     </div>
-    </div>
+        </div>
+
+  
     
     
     <p>
     </p>
-    <div id="invisipanel" runat="server">
-    <asp:Panel ID="pnlModMarca" runat="server" BorderColor="Black" BorderStyle="Solid" Height="185px" Width="834px" Visible="False">
+    <div id="invisipanel" runat="server" visible="false">
+    <!-- <asp:Panel ID="pnlModMarca" runat="server" BorderColor="Black" BorderStyle="Solid" Height="185px" Width="834px" Visible="False"> -->
         <br />
         <br />
         <br />
         <p>
-        <asp:Label ID="lblMotivoTi" runat="server" Visible="False">Motivo de modificacion:</asp:Label>
+        <asp:Label ID="lblMotivoTi" runat="server">Motivo de modificacion:</asp:Label>
         &nbsp;&nbsp;
-        <asp:TextBox ID="txbMotivo" runat="server" OnTextChanged="txbMotivo_TextChanged" Visible="False"></asp:TextBox>
+        <asp:TextBox ID="txbMotivo" runat="server" OnTextChanged="txbMotivo_TextChanged"></asp:TextBox>
         </p>
 
         <br />
@@ -165,7 +168,7 @@
        <div class="row">
        <div class="columnb" style="background-color:#FFFF;">
            &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btnmodmarca" runat="server" Text="Modificar marca" OnClick="btnmodmarca_Click" Visible="False" />
+            <asp:Button ID="btnmodmarca" runat="server" Text="Modificar marca" OnClick="btnmodmarca_Click" />
        </div>
        <div class="columnb" style="background-color:#FFFF">
            &nbsp;&nbsp;&nbsp;&nbsp;
@@ -177,7 +180,7 @@
           
        </div>
        </div>
-    </asp:Panel>
+    <!--  </asp:Panel> -->
     </div>
     <p>
         &nbsp;

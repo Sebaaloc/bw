@@ -11,6 +11,7 @@ namespace WebDevelopmentBankW
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -57,8 +58,11 @@ namespace WebDevelopmentBankW
             lblcuotAntTi.Visible = false;
             lblFechaProti.Visible = false;
             lblNoModTi.Visible = false;
-            pnlModMarca.Visible = false;
+            //pnlModMarca.Visible = false;
             lblMotivoTi.Visible = false;
+
+            
+
             txbMotivo.Visible = false;
             btnmodmarca.Visible = false;
             btnCancelar.Visible = false;
@@ -76,20 +80,24 @@ namespace WebDevelopmentBankW
         protected void btnConsultar_Click(object sender, EventArgs e)
         {
             //Show_fields();          
-            lblfechmodti.Visible = true;
-            lblMarcaAntti.Visible = true;
-            lblSaldoCTi.Visible = true;
-            lblDiasMoraTi.Visible = true;
-            lblTasIntTi.Visible = true;
-            lblPlazomesti.Visible = true;
-            lblcuotAntTi.Visible = true;
-            lblFechaProti.Visible = true;
-            lblNoModTi.Visible = true;
-            pnlModMarca.Visible = true;
-            lblMotivoTi.Visible = true;
-            txbMotivo.Visible = true;
-            btnmodmarca.Visible = true;
-            btnCancelar.Visible = true;
+            //lblfechmodti.Visible = true;
+            //lblMarcaAntti.Visible = true;
+            //lblSaldoCTi.Visible = true;
+            //lblDiasMoraTi.Visible = true;
+            //lblTasIntTi.Visible = true;
+            //lblPlazomesti.Visible = true;
+            //lblcuotAntTi.Visible = true;
+            //lblFechaProti.Visible = true;
+            //lblNoModTi.Visible = true;
+            //pnlModMarca.Visible = true;
+            //lblMotivoTi.Visible = true;
+            //txbMotivo.Visible = true;
+            //btnmodmarca.Visible = true;
+            //btnCancelar.Visible = true;
+
+            invisipanel.Visible = true;
+            invisitems.Visible = true;
+
             lblNoCre.Text = tbxNoCred.Text;
             lblfechmod.Text = tbxNoCred.Text;
             lblMarcaAnt.Text = tbxNoCred.Text;

@@ -67,13 +67,13 @@ namespace WebDevelopmentBankW {
         protected global::System.Web.UI.WebControls.CompareValidator tbxvalidinp;
         
         /// <summary>
-        /// Control Invisitems.
+        /// Control invisitems.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Invisitems;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl invisitems;
         
         /// <summary>
         /// Control lblNoCredTi.

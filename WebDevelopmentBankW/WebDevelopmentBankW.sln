@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDevelopmentBankW", "WebDevelopmentBankW\WebDevelopmentBankW.csproj", "{711A0A0F-E5E6-4DA3-B000-50753F8F37AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeveopmentBank.BackEnd", "WebDeveopmentBank.BackEnd\WebDeveopmentBank.BackEnd.csproj", "{BAD559C5-A71C-4B71-8F41-6DF5DCC4D4C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{711A0A0F-E5E6-4DA3-B000-50753F8F37AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{711A0A0F-E5E6-4DA3-B000-50753F8F37AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{711A0A0F-E5E6-4DA3-B000-50753F8F37AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD559C5-A71C-4B71-8F41-6DF5DCC4D4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD559C5-A71C-4B71-8F41-6DF5DCC4D4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD559C5-A71C-4B71-8F41-6DF5DCC4D4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD559C5-A71C-4B71-8F41-6DF5DCC4D4C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
